@@ -23,7 +23,7 @@
 
 <img height="180" alt="Kartik's avatar" src="https://github.com/10kartik/10kartik/assets/99239411/21742f3f-d9a7-4a53-8530-7d20d51e03a9" />
 
-<a href="https://www.10kk.me"><img src="https://readme-typing-svg.demolab.com/?font=VT323&size=32&duration=3200&pause=600&color=8B5CF6&center=true&vCenter=true&width=520&lines=Hola%2C+I'm+Kartik+%F0%9F%91%8B;Senior+Software+Engineer+%40+Acai+Travel;I+build+AI+agents+in+Go+%26+TypeScript;Pune+%F0%9F%87%AE%F0%9F%87%B3+%E2%86%92+Barcelona+%F0%9F%87%AA%F0%9F%87%B8;CS2%2C+football+%26+the+gym" alt="Typing intro" /></a>
+<a href="https://www.10kk.me"><img src="https://readme-typing-svg.demolab.com/?font=VT323&size=32&duration=3200&pause=600&color=8B5CF6&center=true&vCenter=true&width=520&lines=Hola%2C+I'm+Kartik+%F0%9F%91%8B;10x+engineer+%F0%9F%9A%80;Senior+Software+Engineer+%40+Acai+Travel;I+build+AI+agents+in+Go+%26+TypeScript;Nagpur+%F0%9F%87%AE%F0%9F%87%B3+%E2%86%92+Barcelona+%F0%9F%87%AA%F0%9F%87%B8" alt="Typing intro" /></a>
 
 <br>
 
@@ -34,22 +34,17 @@
 
 <table>
   <tr><td><b>Name</b></td><td>KARTIK</td></tr>
-  <tr><td><b>Type</b></td><td>🛠️ Backend · 🤖 AI Agents</td></tr>
-  <tr><td><b>Region</b></td><td>Pune 🇮🇳 → Barcelona 🇪🇸 (migrated in 2026)</td></tr>
-  <tr><td><b>Trainer</b></td><td><a href="https://www.acaitravel.com">Acai Travel</a>: AI agents for travel contact centers</td></tr>
-  <tr><td><b>Ability</b></td><td>Clarity: asks questions until a ticket has nothing left to guess</td></tr>
-  <tr><td><b>Hidden ability</b></td><td>Unblocks other teams' projects</td></tr>
-  <tr><td><b>Weak against</b></td><td>Unscoped tickets</td></tr>
-  <tr><td><b>Moves</b></td><td><code>gRPC Tackle</code> · <code>Terraform Apply</code> · <code>MCP Link</code> · <code>Eval Guard</code></td></tr>
+  <tr><td><b>Type</b></td><td>⚡ 10x Engineer · 🤖 AI Agents</td></tr>
+  <tr><td><b>Region</b></td><td>Nagpur 🇮🇳 → Barcelona 🇪🇸 (2026)</td></tr>
+  <tr><td><b>Trainer</b></td><td><a href="https://www.acaitravel.com">Acai Travel</a>: AI agents for travel contact centres, airlines, OTAs & DMCs</td></tr>
+  <tr><td><b>Signature move</b></td><td>Agentic workflows that ship 24/7, with almost no regressions</td></tr>
   <tr><td><b>Evolution</b></td><td>Intern (2021) → SWE (2021) → Full-stack lead → SWE @ Acai (2025) → <b>Senior SWE (2026)</b></td></tr>
 </table>
-
-<p align="left"><i>When it finds an ambiguous ticket it won't let go until the scope is crystal clear. Then it ships it end to end, from proto to production.</i></p>
 
 </details>
 
 <details>
-<summary><b>🧑‍💻 About me (it compiles, I checked)</b></summary>
+<summary><b>🧑‍💻 About me</b></summary>
 
 <div align="left">
 
@@ -60,6 +55,7 @@ package kartik
 type Trainer struct {
 	Name      string
 	Role      string
+	Brand     string
 	Based     string
 	Speaks    []string
 	Ships     []string
@@ -72,7 +68,8 @@ type Trainer struct {
 var Me = Trainer{
 	Name:      "Kartik Kapgate",
 	Role:      "Senior Software Engineer @ Acai Travel",
-	Based:     "Barcelona, ES (moved from Pune, IN in 2026)",
+	Brand:     "10x engineer",
+	Based:     "Barcelona, ES (moved from Nagpur, IN in 2026)",
 	Speaks:    []string{"English", "Hindi", "Marathi"},
 	Ships:     []string{"Go", "TypeScript", "AWS EKS", "Terraform", "MongoDB", "Datadog"},
 	Into:      []string{"AI agents", "MCP & A2A", "Distributed systems", "Observability"},
@@ -80,9 +77,6 @@ var Me = Trainer{
 	Studied:   "B.Tech @ Vishwakarma Institute of Technology, Pune",
 	OpenToDMs: true,
 }
-
-// Catch throws a Poké Ball at every bug it meets. Gotta catch 'em all.
-func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 ```
 
 </div>
@@ -97,8 +91,15 @@ func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 **Daily drivers**
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go,ts,nodejs,aws,kubernetes,terraform,docker,githubactions,mongodb,postgres,grafana&theme=light" />
-  <img alt="Go, TypeScript, Node.js, AWS, Kubernetes, Terraform, Docker, GitHub Actions, MongoDB, PostgreSQL, Grafana" src="https://skillicons.dev/icons?i=go,ts,nodejs,aws,kubernetes,terraform,docker,githubactions,mongodb,postgres,grafana&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go,ts&theme=light" />
+  <img alt="Go, TypeScript" src="https://skillicons.dev/icons?i=go,ts&theme=dark" />
+</picture>
+
+**Cloud & data**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws,kubernetes,terraform,docker,githubactions,cloudflare,mongodb,postgres,redis,grafana&theme=light" />
+  <img alt="AWS, Kubernetes, Terraform, Docker, GitHub Actions, Cloudflare, MongoDB, PostgreSQL, Redis, Grafana" src="https://skillicons.dev/icons?i=aws,kubernetes,terraform,docker,githubactions,cloudflare,mongodb,postgres,redis,grafana&theme=dark" />
 </picture>
 
 **AI, agents & observability**
@@ -106,6 +107,7 @@ func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 ![MCP](https://img.shields.io/badge/MCP-555?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![A2A](https://img.shields.io/badge/Agent2Agent-555?style=flat-square)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=flat-square&logo=openrouter&logoColor=white)
 ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square)
 ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square)
 ![Weaviate](https://img.shields.io/badge/Weaviate_RAG-00A142?style=flat-square)
@@ -118,8 +120,8 @@ func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 **Also shipped with**
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,django,flask,fastapi,express,graphql,redis,rabbitmq,mysql,nextjs,react,tailwind,swift,vercel,gcp,firebase&theme=light&perline=8" />
-  <img alt="Python, Django, Flask, FastAPI, Express, GraphQL, Redis, RabbitMQ, MySQL, Next.js, React, Tailwind, Swift, Vercel, GCP, Firebase" src="https://skillicons.dev/icons?i=py,django,flask,fastapi,express,graphql,redis,rabbitmq,mysql,nextjs,react,tailwind,swift,vercel,gcp,firebase&theme=dark&perline=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,nodejs,django,flask,fastapi,express,graphql,rabbitmq,mysql,nextjs,react,tailwind,swift,vercel,gcp,firebase&theme=light&perline=8" />
+  <img alt="Python, Node.js, Django, Flask, FastAPI, Express, GraphQL, RabbitMQ, MySQL, Next.js, React, Tailwind, Swift, Vercel, GCP, Firebase" src="https://skillicons.dev/icons?i=py,nodejs,django,flask,fastapi,express,graphql,rabbitmq,mysql,nextjs,react,tailwind,swift,vercel,gcp,firebase&theme=dark&perline=8" />
 </picture>
 
 **Tools of the trade**
@@ -132,7 +134,7 @@ func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 </details>
 
 <details>
-<summary><b>📊 Battle stats</b></summary>
+<summary><b>📊 Battle stats · 🔥 86-day best streak</b></summary>
 
 <br>
 
@@ -159,9 +161,11 @@ func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 
 <div align="left">
 
+- **[open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata)**: contributions to the open-source metadata platform for data discovery and governance.
 - **[mdn/content](https://github.com/mdn/content/pull/21078)**: fixed over-formatted code in the official JavaScript docs.
 - **[pinterest/pymemcache](https://github.com/pinterest/pymemcache/pull/414)**: documentation fixes for Pinterest's Python memcached client.
-- **[TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript/pulls?q=is%3Apr+author%3A10kartik+is%3Amerged)**: 4 merged PRs, including linked-list algorithms and a cycle-detection refactor with tests.
+- **[python-validators/validators](https://github.com/python-validators/validators/pull/215)**: Aadhaar and PAN validators for Indian identity numbers.
+- **[TheAlgorithms](https://github.com/search?q=org%3ATheAlgorithms+author%3A10kartik&type=pullrequests)**: algorithms and data structures in JavaScript and C++, including linked lists and a cycle-detection refactor with tests.
 - **[TrueSparrowSystems](https://github.com/search?q=org%3ATrueSparrowSystems+author%3A10kartik+is%3Apr+is%3Amerged&type=pullrequests)**: led NFT or Not, WhisperChain and the AI Sales Sparrow iOS app from inception to production.
 
 </div>
