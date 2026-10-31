@@ -1,55 +1,88 @@
-<p align = "center">
-	<img src = "https://komarev.com/ghpvc/?username=10kartik&style=plastic&color=blueviolet" alt = "Profile Views"/>
+<p align="center">
+  <a href="https://www.10kk.me">
+    <img src="https://komarev.com/ghpvc/?username=10kartik&style=for-the-badge&color=blueviolet&label=TRAINERS+VISITED" alt="Profile views" />
+  </a>
 </p>
-<p align = "center">
-	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/10kartik/10kartik/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/10kartik/10kartik/output/github-snake.svg" />
+    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/10kartik/10kartik/output/github-snake.svg" />
+  </picture>
 </p>
 
 <div align="center">
 
-
 ![Top of pokeball](https://user-images.githubusercontent.com/44261381/209363264-ac854d3c-2cc2-44c4-928e-8a08d1013f46.png)
 
 <details>
-<summary>Open profile</summary>
+<summary><b>A wild KARTIK appeared! Click to open the Poké Ball</b></summary>
 
 <br>
-<div>
-  <div align=center>
-      <img height="200" alt="Avatar photo of KK10" src="https://github.com/10kartik/10kartik/assets/99239411/21742f3f-d9a7-4a53-8530-7d20d51e03a9" alt="Avatar photo of KK10">
-  </div>
-  <div align=center>
-      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=VT323&size=35&duration=3500&pause=300&color=6A0572&center=true&vCenter=true&width=500&lines=Hey%2C+I+am+Kartik;Welcome+to+My+GitHub+Profile;Inquisitive+and+Curious+by+nature;Software+and+Computer+Engineer;Backend+and+iOS+Developer;CS2+and+Football+Lover;Hardworking+and+Ambitious;Gym+Freak;Music+and+Programming+Lover" alt="Typing SVG" /></a>
-  </div>
-</div>
+
+<img height="180" alt="Kartik's avatar" src="https://github.com/10kartik/10kartik/assets/99239411/21742f3f-d9a7-4a53-8530-7d20d51e03a9" />
+
+<a href="https://www.10kk.me"><img src="https://readme-typing-svg.demolab.com/?font=VT323&size=32&duration=3200&pause=600&color=8B5CF6&center=true&vCenter=true&width=520&lines=Hola%2C+I'm+Kartik+%F0%9F%91%8B;Senior+Software+Engineer+%40+Acai+Travel;I+build+AI+agents+in+Go+%26+TypeScript;Pune+%F0%9F%87%AE%F0%9F%87%B3+%E2%86%92+Barcelona+%F0%9F%87%AA%F0%9F%87%B8;CS2%2C+football+%26+the+gym" alt="Typing intro" /></a>
+
+<br>
 
 <details>
-<summary>About me</summary>
+<summary><b>📕 Pokédex entry #010</b></summary>
 
-[//]: # (You must have a lf before the markdown element when inside a block for it to work: https://stackoverflow.com/questions/29368902/how-can-i-wrap-my-markdown-in-an-html-div)
+<br>
+
+<table>
+  <tr><td><b>Name</b></td><td>KARTIK</td></tr>
+  <tr><td><b>Type</b></td><td>🛠️ Backend · 🤖 AI Agents</td></tr>
+  <tr><td><b>Region</b></td><td>Pune 🇮🇳 → Barcelona 🇪🇸 (migrated in 2026)</td></tr>
+  <tr><td><b>Trainer</b></td><td><a href="https://www.acaitravel.com">Acai Travel</a>: AI agents for travel contact centers</td></tr>
+  <tr><td><b>Ability</b></td><td>Clarity: asks questions until a ticket has nothing left to guess</td></tr>
+  <tr><td><b>Hidden ability</b></td><td>Unblocks other teams' projects</td></tr>
+  <tr><td><b>Weak against</b></td><td>Unscoped tickets</td></tr>
+  <tr><td><b>Moves</b></td><td><code>gRPC Tackle</code> · <code>Terraform Apply</code> · <code>MCP Link</code> · <code>Eval Guard</code></td></tr>
+  <tr><td><b>Evolution</b></td><td>Intern (2021) → SWE (2021) → Full-stack lead → SWE @ Acai (2025) → <b>Senior SWE (2026)</b></td></tr>
+</table>
+
+<p align="left"><i>When it finds an ambiguous ticket it won't let go until the scope is crystal clear. Then it ships it end to end, from proto to production.</i></p>
+
+</details>
+
+<details>
+<summary><b>🧑‍💻 About me (it compiles, I checked)</b></summary>
 
 <div align="left">
 
-```js
-/**
- * Represents me.
- *
- * @constructor
- * @param {string} location - Gondia, Maharashtra, India.
- * @param {string} languagues - English, Hindi, Marathi.
- * @param {string} jobTitle - Software Engineer.
- * @param {string} specialization - Building full-fledged Backend systems and iOS applications.
- * @param {string} interests - AI, Distributed Systems & problem-solving.
- * @param {string} hobbies - Trekking, Reading, gaming & playing music.
- * @param {string} education - BTech Computer Engineering, Viswakarma Institute of Technology, Pune.
- * @param {string} approachable - Yes, to collaborate on exciting projects, don't hesitate to react out.
- * @param {string} stength - Resolute.
- * @param {string} weakness - Shyness.
- *
- * @throws {Punch} To any and all bugs.
- *
- * @returns {Object} Kartik.
- */
+```go
+// Package kartik describes the human behind this profile.
+package kartik
+
+type Trainer struct {
+	Name      string
+	Role      string
+	Based     string
+	Speaks    []string
+	Ships     []string
+	Into      []string
+	AFK       []string
+	Studied   string
+	OpenToDMs bool
+}
+
+var Me = Trainer{
+	Name:      "Kartik Kapgate",
+	Role:      "Senior Software Engineer @ Acai Travel",
+	Based:     "Barcelona, ES (moved from Pune, IN in 2026)",
+	Speaks:    []string{"English", "Hindi", "Marathi"},
+	Ships:     []string{"Go", "TypeScript", "AWS EKS", "Terraform", "MongoDB", "Datadog"},
+	Into:      []string{"AI agents", "MCP & A2A", "Distributed systems", "Observability"},
+	AFK:       []string{"CS2", "Football", "Gym", "Cooking"},
+	Studied:   "B.Tech @ Vishwakarma Institute of Technology, Pune",
+	OpenToDMs: true,
+}
+
+// Catch throws a Poké Ball at every bug it meets. Gotta catch 'em all.
+func (t Trainer) Catch(bugs ...error) (caught int) { return len(bugs) }
 ```
 
 </div>
@@ -57,183 +90,121 @@
 </details>
 
 <details>
-<summary>Tools</summary>
-<div>
-  <p style="display: inline-block;" align="center">
-    <kbd>
-      <kbd>Programming Languages</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cpp" title="C++" /> 
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="js" title="Javascript"/> 
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="py" title="Python"/> 
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png" alt="C#" title="C#"/>
-    </kbd>
-	  <kbd>
-      <kbd>Design Tools</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.iconscout.com/icon/free/png-512/free-figma-2296071-1912030.png?f=webp&w=256" alt="figma" title="Figma"/> 
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/186711335-a3729606-5a78-4496-9a36-06efcc74f800.png" alt="Swagger" title="Swagger"/>
-      <img width="110px" src="https://blog.dbdiagram.io/content/images/2020/04/dbdiagram_logo_text_720.png" alt="dbdiagram" title="DBdiagram.io"/>
-    </kbd>
-    <kbd>
-      <kbd>Back-end</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" title="Node.js"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="express" title="Express Server"/>
-	 <img width="30px" src="https://raw.githubusercontent.com/tandpfun/skill-icons/de91fca307a83d75fc5b1f6ce24540454acead41/icons/Flask-Dark.svg" alt="flask" title="Flask"/>   
-      <img width="30px" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/django/django-plain-wordmark.svg" alt="django" title="Django"/>
-      <img width="30px" src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="rest" title="REST API"/>
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/187070862-03888f18-2e63-4332-95fb-3ba4f2708e59.png" alt="websocket" title="Websocket"/>
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png" alt="GraphQL" title="GraphQL"/>
-    </kbd>
-     <kbd>
-      <kbd>Mobile</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="swift" title="SwiftUI"/>
-    </kbd>
-    <kbd>
-      <kbd>Front-end</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" title="HTML"/> 
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css" title="CSS"/>  
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" title="Reactjs"/>
-    </kbd>
-    <kbd>
-      <kbd>Database, Cache & Queue</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" alt="mysql" title="MySQL"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgres" title="Postgres SQL"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" alt="mongodb" title="Mongo DB"/>
-      <img width="30px" src="https://www.vectorlogo.zone/logos/memcached/memcached-icon.svg" alt="memcached" title="Memcached"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="redis" title="Redis"/>
-      <img width="30px" src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitmq" title="RabbitMQ"/>
-    </kbd>
-    <br>
-    <br>
-    <kbd>
-      <kbd>Automation, Data Science & AI</kbd>
-      <br>
-      <br>
-      <img width="30" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/ab742751-b55b-43d7-8f49-9a67e293f67c" alt="Puppeteer" title="Puppeteer"/>
-      <img width="30" src="https://seeklogo.com/images/P/playwright-logo-22FA8B9E63-seeklogo.com.png" alt="Playwright" title="Playwright"/>
-      <img width="30" src="https://logodix.com/logo/2116220.jpg" alt="appium" title="Appium"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" title="Numpy"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" title="Pandas"/>
-      <img width="30px" src="https://freelogopng.com/images/all_img/1681038242chatgpt-logo-png.png" alt="chatgpt" title="Chat GPT"/>
-      <img width="30px" src="https://seeklogo.com/images/S/stability-ai-logo-39727290FE-seeklogo.com.png" alt="stablediffusion" title="Stable Diffusion"/>
-    </kbd>
-    <kbd>
-      <kbd>Operating System, Networking, VCS, Infra Cloud & Deployment</kbd>
-      <br>
-      <br>
-	    <img width="30" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa" alt="Linux" title="Linux"/>
-	    <img width="30" src="https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png" alt="macOS" title="macOS"/>
-	    <img width="30" src="https://user-images.githubusercontent.com/25181517/121406611-a8246b80-c95e-11eb-9b11-b771486377f6.png" alt="iOS" title="iOS"/>
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/117269608-b7dcfb80-ae58-11eb-8e66-6cc8753553f0.png" alt="Android" title="Android"/>
-	    <img width="30" src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png" alt="Windows" title="Windows"/>
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/183345125-9a7cd2e6-6ad6-436f-8490-44c903bef84c.png" alt="Nginx" title="Nginx"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="git" title="git" />
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/183896132-54262f2e-6d98-41e3-8888-e40ab5a17326.png" alt="AWS" title="AWS"/>
-      <img width="40" src="https://www.svgrepo.com/show/354512/vercel.svg" alt="vercel" title="Vercel"/>
-	<img width="50" src="https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.png" alt="terraform" title="Terraform"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" alt="docker" title="Docker"/>
-      <img width="30px" src="https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg" alt="githubactions" title="Github Actions"/>
-    </kbd>
-    <kbd>
-      <kbd>Terminal Scripts</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" title="bash"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" alt="vim" title="Vim"/>
-    </kbd>
-    <kbd>
-      <kbd>Tools</kbd>
-      <br>
-      <br>
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/186711578-bf30cb30-40b7-4b45-95a5-bdf837c372e7.png" alt="Xcode" title="Xcode"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"  alt="VSCode" title="VS Code"/>
-      <img width="30" src="https://static-00.iconduck.com/assets.00/brand-github-copilot-icon-2048x1775-2h15dc8k.png" alt="copilot" title="AI Copilot"/>
-      <img width="30px" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png"  alt="sublime" title="Sublime"/>
-      <img width="30" src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" alt="Postman" title="Postman"/>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"  alt="jupiter" title="Jupiter"/>
-  </kbd>
-     <kbd>
-      <kbd>Game Development</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="unity" title="Unity Engine"/>
-    </kbd>
-  </p>
+<summary><b>🎒 Inventory (tech stack)</b></summary>
+
+<br>
+
+**Daily drivers**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go,ts,nodejs,aws,kubernetes,terraform,docker,githubactions,mongodb,postgres,grafana&theme=light" />
+  <img alt="Go, TypeScript, Node.js, AWS, Kubernetes, Terraform, Docker, GitHub Actions, MongoDB, PostgreSQL, Grafana" src="https://skillicons.dev/icons?i=go,ts,nodejs,aws,kubernetes,terraform,docker,githubactions,mongodb,postgres,grafana&theme=dark" />
+</picture>
+
+**AI, agents & observability**
+
+![MCP](https://img.shields.io/badge/MCP-555?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![A2A](https://img.shields.io/badge/Agent2Agent-555?style=flat-square)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square)
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square)
+![Weaviate](https://img.shields.io/badge/Weaviate_RAG-00A142?style=flat-square)
+![Braintrust](https://img.shields.io/badge/Braintrust_evals-111?style=flat-square&logo=braintrust&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC_+_Protobuf-244C5A?style=flat-square)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![Grafana Loki](https://img.shields.io/badge/Grafana_Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+**Also shipped with**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,django,flask,fastapi,express,graphql,redis,rabbitmq,mysql,nextjs,react,tailwind,swift,vercel,gcp,firebase&theme=light&perline=8" />
+  <img alt="Python, Django, Flask, FastAPI, Express, GraphQL, Redis, RabbitMQ, MySQL, Next.js, React, Tailwind, Swift, Vercel, GCP, Firebase" src="https://skillicons.dev/icons?i=py,django,flask,fastapi,express,graphql,redis,rabbitmq,mysql,nextjs,react,tailwind,swift,vercel,gcp,firebase&theme=dark&perline=8" />
+</picture>
+
+**Tools of the trade**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,linux,apple,bash,vim,vscode,postman,figma,notion,jest,pnpm&theme=light" />
+  <img alt="Git, GitHub, Linux, macOS, Bash, Vim, VS Code, Postman, Figma, Notion, Jest, pnpm" src="https://skillicons.dev/icons?i=git,github,linux,apple,bash,vim,vscode,postman,figma,notion,jest,pnpm&theme=dark" />
+</picture>
+
+</details>
+
+<details>
+<summary><b>📊 Battle stats</b></summary>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=10kartik&theme=tokyonight&hide_border=true&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" />
+  <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=10kartik&theme=default&hide_border=true&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED" />
+</picture>
+
+<br><br>
+
+<a href="https://leetcode.com/u/kk10-/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/kk10-?theme=dark&font=Inter&ext=heatmap" />
+    <img alt="LeetCode stats" src="https://leetcard.jacoblin.cool/kk10-?theme=light&font=Inter&ext=heatmap" />
+  </picture>
+</a>
+
+</details>
+
+<details>
+<summary><b>🏅 Gym badges (open source)</b></summary>
+
+<br>
+
+<div align="left">
+
+- **[mdn/content](https://github.com/mdn/content/pull/21078)**: fixed over-formatted code in the official JavaScript docs.
+- **[pinterest/pymemcache](https://github.com/pinterest/pymemcache/pull/414)**: documentation fixes for Pinterest's Python memcached client.
+- **[TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript/pulls?q=is%3Apr+author%3A10kartik+is%3Amerged)**: 4 merged PRs, including linked-list algorithms and a cycle-detection refactor with tests.
+- **[TrueSparrowSystems](https://github.com/search?q=org%3ATrueSparrowSystems+author%3A10kartik+is%3Apr+is%3Amerged&type=pullrequests)**: led NFT or Not, WhisperChain and the AI Sales Sparrow iOS app from inception to production.
+
 </div>
+
 </details>
 
 <details>
-  <summary>GitHub Stats</summary>
-  <br>
-  <p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=10kartik&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="GitHub Stats">
-  </p>
-</details>
+<summary><b>🔥💧🌿 Choose your starter</b></summary>
 
-<details>
-  <summary>Open Source Contributions</summary>
-  <br>
-  <ul>
-    <li><strong>MDN Docs - Official JavaScript Docs:</strong> Contributed to improving and maintaining the official JavaScript documentation on MDN Web Docs.</li>
-    <li><strong>Pinterest - Pymemcache:</strong> Made contributions to the Pymemcache project on Pinterest, an efficient Python client for the memcached caching system.</li>
-    <li><strong>The Algorithms - JavaScript and C++:</strong> Contributed to The Algorithms repository, particularly in JavaScript and C++ implementations of various algorithms and data structures.</li>
-   <li><strong>True Sparrow - NftorNot.com, WhisperChain.xyz, AI SalesSparrow:</strong> Led the development of projects from inception to production under True Sparrow.</li>
-  </ul>
-</details>
+<br>
 
-<details>
-  <summary>Quote</summary>
-  <br>
-  <blockquote>
-    “A bug is never just a mistake. It represents something bigger. An error of thinking. That makes you who you are.”
-    <br><strong>Mr. Robot - Elliot Alderson</strong>
-  </blockquote>
-</details>
-
-<details>
-  <summary>Free DOSE hit</summary>
-  <br>
-  <small><i>DOSE (dopamine, oxytocin, serotonin & endorphin), refresh page if dose was ineffective.</i></small>
-  <br>
-  <div align="center"><img src="https://readme-jokes.vercel.app/api?theme=monokai" alt="Jokes Card" /></div>
-</details>
-
-<details>
-<summary>What can I do for you?</summary>
-<table style="border: none">
+<table>
   <tr>
-  <td width="50%" valign="top">
-
-[//]: # (Fighting against markdown and blocks isn't easy, indentation is catastrophic)
-
-## Let's Work on Your Project Together!
-
-If you have any questions about web development, writing mistake-free documentation or AI, feel free to <a href="mailto:kkapgate5@gmail.com">contact me by email</a>, I won't bite, I promise.
-
-  </td>
-  <td width="50%" valign="top">
-
-## It's not perfect, isn't it?
-
-**<img alt="Feedback" src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg">**
-
-<blockquote>“I think it’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.”
-<br><strong>– Elon Musk</strong></blockquote>
-
-  </td>
+    <td align="center" width="33%">🔥<br><a href="https://www.10kk.me"><b>10kk.me</b></a><br><sub>My portfolio: experience, projects, contact</sub></td>
+    <td align="center" width="33%">💧<br><a href="https://www.cv4hire.in"><b>CV4Hire</b></a><br><sub>Get your CV past the ATS filter, for free</sub></td>
+    <td align="center" width="33%">🌿<br><a href="mailto:kartik@10kk.me"><b>Say hi</b></a><br><sub>kartik@10kk.me. I don't bite, promise.</sub></td>
   </tr>
 </table>
+
+</details>
+
+<details>
+<summary><b>💬 Quote of the run</b></summary>
+
+<br>
+
+> “A bug is never just a mistake. It represents something bigger. An error of thinking. That makes you who you are.”
+>
+> **Elliot Alderson, Mr. Robot**
+
+</details>
+
+<details>
+<summary><b>🍬 Rare Candy (free DOSE hit)</b></summary>
+
+<br>
+
+<sub><i>DOSE = dopamine, oxytocin, serotonin & endorphin. Refresh if the dose was ineffective.</i></sub>
+
+<br><br>
+
+<img src="https://readme-jokes.vercel.app/api?theme=monokai" alt="Random programming joke" />
+
 </details>
 
 </details>
@@ -242,10 +213,11 @@ If you have any questions about web development, writing mistake-free documentat
 
 </div>
 
-<div align=center>
- <a href="https://www.linkedin.com/in/kartikkapgate/" target="_blank"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=" alt="LinkedIn" /></a>
-<a href="mailto:kkapagte5@gmail.com?subject=Hi%20Kartik%20,%20nice%20to%20meet%20you!" target="_blank"><img alt="Email" src="https://img.shields.io/static/v1?style=for-the-badge&message=Gmail&color=EA4335&logo=Gmail&logoColor=FFFFFF&label=" /></a>
-<a href="https://leetcode.com/kk10-/" target="_blank"><img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LeetCode_Logo_black_with_text.svg/2560px-LeetCode_Logo_black_with_text.svg.png" alt="LeetCode" /></a>
-<a href="https://www.hackerrank.com/profile/kartik_kapgate" target="_blank"><img width="100px" src="https://user-images.githubusercontent.com/1194257/65596422-1cef2080-df97-11e9-9abb-a225204d1805.png" alt="HackerRank" /></a>
-<a href="https://steamcommunity.com/id/kk10-/" target="_blank"><img width="110px" alt="Steam" src="https://e7.pngegg.com/pngimages/768/845/png-clipart-brand-logo-product-design-font-steam-text-logo.png" /></a>
-</div>
+<p align="center">
+  <a href="https://www.10kk.me"><img alt="Portfolio" src="https://img.shields.io/badge/10kk.me-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/kartikkapgate/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" /></a>
+  <a href="mailto:kartik@10kk.me"><img alt="Email" src="https://img.shields.io/badge/kartik@10kk.me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/kk10-/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="https://www.hackerrank.com/profile/kartik_kapgate"><img alt="HackerRank" src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" /></a>
+  <a href="https://steamcommunity.com/id/kk10-/"><img alt="Steam" src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" /></a>
+</p>
